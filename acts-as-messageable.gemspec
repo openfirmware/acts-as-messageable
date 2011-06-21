@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Piotr Nielacny"]
-  s.date = %q{2011-02-17}
+  s.date = %q{2011-06-21}
   s.email = %q{piotr.nielacny@gmail.com}
   s.extra_rdoc_files = [
     "README.rdoc"
@@ -19,20 +19,17 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "generators/acts_as_messageable/acts_as_messageable_migration_generator.rb",
+    "generators/acts_as_messageable/templates/migration.rb",
     "lib/acts-as-messageable.rb",
     "lib/acts_as_messageable/acts-as-messageable.rb",
     "lib/acts_as_messageable/message.rb",
-    "lib/generators/acts_as_messageable/migration/migration_generator.rb",
-    "lib/generators/acts_as_messageable/migration/templates/migration.rb",
     "rails/init.rb"
   ]
   s.homepage = %q{http://github.com/LTe/acts_as_messageable}
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.5.0}
+  s.rubygems_version = %q{1.7.2}
   s.summary = %q{Make user messageable!;-)}
-  s.test_files = [
-    "test/message_test.rb"
-  ]
 
   if s.respond_to? :specification_version then
     s.specification_version = 3

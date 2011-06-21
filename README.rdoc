@@ -1,14 +1,17 @@
 = ActsAsMessageable
 The Acts As Messageable allows communication between the models.
 
+This fork is intended to backport newer ActsAsMessageable features/fixes for
+a Rails 2.3.11 environment.
+
 == Usage
 To use it, add it to your Gemfile:
 
     gem 'acts-as-messageable'
 
-== Post instalation
+== Post installation
 
-1. rails g acts_as_messageable:migration
+1. script/generate acts_as_messageable_migration
 2. rake db:migrate
 
 == Usage
@@ -91,4 +94,3 @@ To use it, add it to your Gemfile:
     end
 
 Copyright © 2011 Piotr Niełacny (http://ruby-blog.pl), released under the MIT license
-    
